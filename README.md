@@ -7,7 +7,7 @@ El sistema permite las funcionalidades sencillas de un CRUD (Create, Read, Updat
 ## Como ejecutar el entorno
 
 1. Instalar las dependencias necesarias, ejecutando el comando: npm install
-2. Crear un archivo .env, y dentro de este, la variable de entorno PORT con el puerto deseado para iniciar el entorno
+2. Crear un archivo .env en carpeta raiz del proyecto, y dentro de este, la variable de entorno PORT con el puerto deseado para iniciar el entorno
 3. Iniciar el servidor con el comando: npm run dev
 
 ## Como probar los endpoints del API
@@ -78,32 +78,32 @@ Respuesta PUT: {
 }
 
 Antes de DELETE con /tareas/1: [
-  {
-    "id": 1,
-    "titulo": "Tarea actualizada",
-    "descripcion": "Dec actualizada aqui"
-  },
-  {
-    "id": 2,
-    "titulo": "Tarea 1",
-    "descripcion": "Dec 1"
-  },
-  {
-    "id": 3,
-    "titulo": "Tarea 2",
-    "descripcion": "Dec 2"
-  }
+{
+"id": 1,
+"titulo": "Tarea actualizada",
+"descripcion": "Dec actualizada aqui"
+},
+{
+"id": 2,
+"titulo": "Tarea 1",
+"descripcion": "Dec 1"
+},
+{
+"id": 3,
+"titulo": "Tarea 2",
+"descripcion": "Dec 2"
+}
 ]
 
 Antes de DELETE con /tareas/1: [
-  {
-    "id": 2,
-    "titulo": "Tarea 1",
-    "descripcion": "Dec 1"
-  },
-  {
-    "id": 3,
-    "titulo": "Tarea 2",
-    "descripcion": "Dec 2"
-  }
+{
+"id": 2,
+"titulo": "Tarea 1",
+"descripcion": "Dec 1"
+},
+{
+"id": 3,
+"titulo": "Tarea 2",
+"descripcion": "Dec 2"
+}
 ]
