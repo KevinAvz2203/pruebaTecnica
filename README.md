@@ -17,9 +17,19 @@ El sistema permite las funcionalidades sencillas de un CRUD (Create, Read, Updat
    - ruta: /tareas
      - GET: Regresa todas las tareas existentes
      - POST: Genera una nueva tarea
+       - Estructura del request:
+         {
+         "titulo":"ejemplo titulo",
+         "descripcion":"ejemplo descripcion"
+         }
    - ruta: /tareas/:id (:id es el indice del elemento que se quiere visualizar)
      - GET: Regresa la tarea correspondiente a ese ID
      - PUT: Actualiza los datos de la tarea de este ID (titulo, descripcion)
+       - Estructura del request:
+         {
+         "titulo":"nuevo titulo",
+         "descripcion":"nueva descripcion"
+         }
      - DELETE: Elimina la tarea con el ID correspondiente
 
 ## Ejemplos de pruebas
