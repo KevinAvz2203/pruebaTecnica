@@ -1,7 +1,28 @@
 import express from "express";
 
-/* Arreglo vacio donde se guardaran las tareas */
-const tareas = [];
+/* Arreglo donde se guardaran las tareas, con pocos datos dummy */
+const tareas = [
+  {
+    id: 1,
+    titulo: "Tarea Prueba 1",
+    descripcion: "Dec Prueba 1",
+  },
+  {
+    id: 2,
+    titulo: "Tarea Prueba 2",
+    descripcion: "Dec Prueba 2",
+  },
+  {
+    id: 3,
+    titulo: "Tarea Prueba 3",
+    descripcion: "Dec Prueba 3",
+  },
+  {
+    id: 4,
+    titulo: "Tarea Prueba 4",
+    descripcion: "Dec Prueba 4",
+  },
+];
 
 /* Regresa las tareas existentes */
 export const getTareas = (req, res) => {
